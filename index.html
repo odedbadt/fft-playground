@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>FFT playroom</title>
+    <link type="text/css" rel="stylesheet" href="static/style.css">
+    <link rel="icon" type="image/x-icon" href="static/favicon.png">
+    <script type="module" src="static/js/bundle.js" defer></script>
+</head>
+
+<body>
+    <div id="h-div-0">
+        <div class="func-view">
+            <div>Editable input signal (draw here)</div>
+            <canvas id="sketcher" width="256" height="256"></canvas>
+
+        </div>
+        <div id="v-div-0">
+            <div id="fft_title">FFT of signal</div>
+            <div class="func-view">
+                <div>log(Real)</div>
+                <canvas id="real" width="256" height="256"></canvas>
+
+            </div>
+            <div class="func-view">
+                <div>Imag:</div>
+                <canvas id="imag" width="256" height="256"></canvas>
+            </div>
+            <div class="func-view">
+                <div>log(Abs):</div>
+                <canvas id="abs" width="256" height="256"></canvas>
+            </div>
+            <div class="func-view">
+                <div>Arg:</div>
+                <canvas id="arg" width="256" height="256"></canvas>
+            </div>
+            <div id="log"></div>
+        </div>
+    </div>
+</body>
+
+</html>
